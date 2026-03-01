@@ -1,15 +1,7 @@
 ---
 name: web-search
-description: |
-  Universal web search skill for retrieving real-time information from the internet.
-  Supports multiple search engines (Baidu via Playwright, Bing, DuckDuckGo).
-  Use when the user needs to search for current information, news, or any content that requires live web search.
-  
-  Triggers:
-  - "search", "web search", "internet search", "find online", "look up"
-  - "搜索", "网络搜索", "查一下"
-  - "google", "baidu", "bing"
-version: 1.1.0
+description: 通用网络搜索技能，支持多引擎搜索（百度、必应、DuckDuckGo），无需API密钥即可获取实时信息
+version: 1.2.0
 author: yejinlei
 license: MIT
 tags: [search, web, internet, baidu, bing]
