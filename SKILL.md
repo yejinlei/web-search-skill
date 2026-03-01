@@ -109,6 +109,7 @@ result = main({
 **script_path**: scripts/web_search.py
 **entry_point**: main
 **dependencies**: 
+  - uv>=0.1.0
   - requests>=2.28.0
   - baidusearch>=1.0.3
   - crawl4ai>=0.8.0

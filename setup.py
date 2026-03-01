@@ -1,5 +1,11 @@
 """
 Web Search Skill Setup
+
+Installation with uv (recommended):
+    uv pip install -e .
+
+Installation with pip:
+    pip install -e .
 """
 
 from setuptools import setup, find_packages
@@ -12,7 +18,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="web-search-skill",
-    version="1.1.0",
+    version="1.2.0",
     author="yejinlei",
     author_email="",
     description="Web Search Skill - Multi-engine web search without API keys",

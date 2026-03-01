@@ -1,5 +1,8 @@
 # Web Search Skill Requirements
 
+# 包管理器（推荐用于快速安装）
+uv>=0.1.0
+
 # HTTP请求
 requests>=2.28.0
 

@@ -430,7 +430,7 @@ def web_search(query: str, num_results: int = 5, region: str = 'cn-zh', deep: bo
             'query': query,
             'num_results': 0,
             'results': [],
-            'errors': ['请安装 requests: pip install requests'],
+            'errors': ['请安装 requests: uv pip install requests'],
             'message': '缺少依赖'
         }
     
