@@ -1,7 +1,7 @@
 ---
 name: web-search
 description: 通用网络搜索技能，支持多引擎搜索（百度、必应、DuckDuckGo），无需API密钥即可获取实时信息
-version: 1.2.0
+version: 1.3.0
 author: yejinlei
 license: MIT
 tags:
